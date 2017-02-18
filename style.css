@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  color:white;
+
+}
+body{
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-image: center;
+  background-image: cover;
+
+}
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background:rgba(0,0,0,.5);
+}
+.nav {
+  display: inline;
+}
+.nav li {
+  display: inline;
+  color:white;
+}
+.logo{
+  width: 26px;
+  height: 26px;
+  margin: 0 30px 0;
+  display: inline;
+  float: left;
+}
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+
+}
+.jumbotron h1 {
+  color:white;
+  text-align: center;
+}
+
+h2, p{
+  text-align: center;
+}
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.btn {
+  background:rgba(0,255,188,0.5);
+line-height: 20px;
+width: 100px;
+border: none;
+border-radius: 8px;
+text-align: center;
+color:white;
+font-weight: bold;
+vertical-align: middle;
+display: inline-block;
+}
+.download {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  line-height: 180px;
+}
+
